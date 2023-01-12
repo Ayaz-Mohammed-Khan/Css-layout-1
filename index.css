@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    
+}
+
+h2 {
+    font-size: 24px;
+    color: #ef5839;
+}
+
+p {
+    
+}
+
+strong {
+    font-weight: 900;
+}
+
+a {
+    color: #ef5839;
+}
+a:hover {
+    color: orange;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn-accent {
+    background: #ef5839;
+    color: white;
+}
+
+.btn-accent:hover {
+    background: yellowgreen;
+    color: white;
+}
+
+.btn-white {
+    background: white;
+    color: black;
+}
+
+.btn-white:hover {
+    background: black;
+    color: white;
+}
+
+/* Layout */
+
+header {
+    background: #2e354f;
+    padding: 20px 0;
+    color: white;
+}
+
+section {
+
+    padding: 20px 0;
+}
+.section-two {
+    background: #2e354f; 
+    color: white;
+}
+.container {
+        width: 620px;
+        margin: 0 auto;
+}
